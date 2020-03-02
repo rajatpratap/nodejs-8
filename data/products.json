@@ -1,1 +1,1 @@
-[{"title":"first book"},{"title":"second book"},{"title":"third book"}]
+[{"id":"121212","title":"First Book","imageUrl":"http://pngimg.com/uploads/book/book_PNG2111.png","price":"19.99","description":"Test-1 for book input."},{"title":"Barcelona ","imageUrl":"https://pbs.twimg.com/profile_images/450673780143042560/AI6tKdW3_400x400.png","description":"It's a great ball.","price":"20.22","id":"0.46530110979975525"}]
