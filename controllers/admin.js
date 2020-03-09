@@ -20,8 +20,14 @@ exports.postAddProduct = (req, res, next) => {
     price,
     description
   ); /* id = null */
-  product.save(); /* executing save() function in Product class */
-  res.redirect("/");
+  product
+    .save()
+    .then(() => {
+      res.redirect("/");
+    })
+    .catch(err => {
+      console.log(err);
+    });
 };
 
 exports.getEditProduct = (req, res, next) => {
